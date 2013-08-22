@@ -1,0 +1,24 @@
+" If using Janus, then this should be .vimrc.after
+" Technically this is really a gvimrc but who's counting.
+if has("gui_running")
+  set guifont=Meslo\ LG\ M\ for\ Powerline
+endif
+let g:airline_powerline_fonts = 1
+
+set nocompatible
+colorscheme slate
+filetype plugin indent on
+set hls
+
+" Metasploit's current default tabs
+set tabstop=2 softtabstop=2 shiftwidth=2 noexpandtab shiftround smarttab
+set expandtab
+
+" Make gq a little more compact.
+set textwidth=72
+
+" http://vim.wikia.com/wiki/Highlight_unwanted_spaces
+set list listchars=tab:»·,trail:·
+
+"clear trailing whitespace
+"autocmd BufWritePre * :%s/\s\+$//e
