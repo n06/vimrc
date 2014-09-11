@@ -3,12 +3,12 @@ VIMRC
 
 My personal settings for VIM.
 
-Setup and Installation
+Setup
 ----
 This setup includes (for now) a custom .vimrc.after file, and my .fonts directory.
 This will only work as expected with [Janus](https://github.com/carlhuda/janus) and [Airline](https://github.com/bling/vim-airline) installed.
 
-To Install
+Installation
 ----
 
 - Install janus
