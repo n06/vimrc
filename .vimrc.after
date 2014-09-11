@@ -10,15 +10,15 @@ colorscheme slate
 filetype plugin indent on
 set hls
 
-" Metasploit's current default tabs
-set tabstop=2 softtabstop=2 shiftwidth=2 noexpandtab shiftround smarttab
+" Set default tabs to 4 spaces.
+set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab shiftround smarttab
 set expandtab
 
-" Make gq a little more compact.
-set textwidth=72
+" Make gq a little more compact. (I do not reccoment using this if you are working on a team with its own checkstyle)
+" set textwidth=72
 
 " http://vim.wikia.com/wiki/Highlight_unwanted_spaces
 set list listchars=tab:»·,trail:·
 
-"clear trailing whitespace
+"clear trailing whitespace (I do not reccomend using this if you are working on a team e.g using git)
 "autocmd BufWritePre * :%s/\s\+$//e
